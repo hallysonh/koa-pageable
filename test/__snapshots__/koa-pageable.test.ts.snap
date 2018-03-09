@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests paginate function context.state matches snapshot when paginate is called with empty strings for page and size 1`] = `
+Object {
+  "pageable": Object {
+    "indexed": true,
+    "page": 0,
+    "size": 10,
+    "sort": Array [
+      e {
+        "direction": "asc",
+        "property": "firstName",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Tests paginate function context.state matches snapshot when paginate is called with string values for page and size 1`] = `
+Object {
+  "pageable": Object {
+    "indexed": true,
+    "page": 10,
+    "size": 15,
+    "sort": Array [
+      e {
+        "direction": "asc",
+        "property": "firstName",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Tests paginate function context.state matches snapshot when paginate is called with undefined page, size, and sort 1`] = `
+Object {
+  "pageable": Object {
+    "indexed": true,
+    "page": 0,
+    "size": 10,
+  },
+}
+`;
+
+exports[`Tests paginate function context.state matches snapshot when paginate is called with valid context 1`] = `
+Object {
+  "pageable": Object {
+    "indexed": true,
+    "page": 1,
+    "size": 20,
+    "sort": Array [
+      e {
+        "direction": "asc",
+        "property": "firstName",
+      },
+    ],
+  },
+}
+`;
