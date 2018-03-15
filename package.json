@@ -34,7 +34,13 @@
     "name": "Halyson Almeida",
     "email": "hallysonh@gmail.com"
   },
-  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Pandera Labs",
+      "url": "https://www.panderalabs.com"
+    }
+  ],
+  "license": "ISC",
   "homepage": "https://github.com/hallysonh/koa-pageable#readme",
   "bugs": {
     "url": "https://github.com/hallysonh/koa-pageable/issues"
