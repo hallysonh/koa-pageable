@@ -1,6 +1,6 @@
 import { Context } from 'koa';
 import { Order, Direction } from '@hallysonh/pageable';
-import { paginate } from '../src/koa-pageable';
+import paginate from '../src/koa-pageable';
 
 describe('Tests', () => {
   describe('paginate function', () => {

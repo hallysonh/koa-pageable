@@ -35,7 +35,7 @@ function parseOptionalIntOrThrow(input?: string): number | null {
  * @param next Middleware function called after {@link Pageable} property is set in state
  * @returns {Promise}
  */
-export async function paginate(ctx: Context, next: Function) {
+export default async function paginate(ctx: Context, next: Function) {
   const page = parseOptionalIntOrThrow(ctx.query.page) || 0;
   const size = parseOptionalIntOrThrow(ctx.query.size) || 10;
   const sort = ctx.query.sort || null;
