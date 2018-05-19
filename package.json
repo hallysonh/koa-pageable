@@ -55,6 +55,7 @@
   "module": "lib/koa-pageable.es5.js",
   "typings": "lib/koa-pageable.d.ts",
   "devDependencies": {
+    "@hallysonh/pageable": "^1.x",
     "@types/jest": "^22.1.2",
     "@types/koa": "^2.0.44",
     "@types/node": "^10.0.9",
@@ -83,8 +84,8 @@
     "tslint-config-standard": "^7.0.0",
     "typedoc": "^0.11.1",
     "typescript": "^2.6.2",
-    "validate-commit-msg": "^2.12.2",
-    "@hallysonh/pageable": "^1.x"
+    "uglify-es": "^3.3.9",
+    "validate-commit-msg": "^2.12.2"
   },
   "peerDependencies": {
     "@hallysonh/pageable": "^1.x",
