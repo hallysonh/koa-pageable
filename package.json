@@ -83,12 +83,11 @@
     "tslint-config-standard": "^7.0.0",
     "typedoc": "^0.11.1",
     "typescript": "^2.6.2",
-    "validate-commit-msg": "^2.12.2"
-  },
-  "dependencies": {
+    "validate-commit-msg": "^2.12.2",
     "@hallysonh/pageable": "^1.x"
   },
   "peerDependencies": {
+    "@hallysonh/pageable": "^1.x",
     "koa": "2.x"
   },
   "jest": {
