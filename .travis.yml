@@ -5,7 +5,8 @@ branches:
     - /^greenkeeper/.*$/
 cache:
   yarn: true
-  directories: node_modules
+  directories: 
+    - node_modules
 notifications.email: false
 node_js: node
 before_install: yarn global add greenkeeper-lockfile@1
