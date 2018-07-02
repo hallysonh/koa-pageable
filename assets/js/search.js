@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"64":"Function"},"rows":[{"id":0,"kind":64,"name":"parseIntOrThrow","url":"globals.html#parseintorthrow","classes":"tsd-kind-function tsd-is-not-exported"},{"id":1,"kind":64,"name":"parseOptionalIntOrThrow","url":"globals.html#parseoptionalintorthrow","classes":"tsd-kind-function tsd-is-not-exported"},{"id":2,"kind":64,"name":"paginate","url":"globals.html#paginate","classes":"tsd-kind-function"}]};
