@@ -186,9 +186,17 @@
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@types/http-assert/-/http-assert-1.2.2.tgz#17dfe5a82184a8898935d96fe2eaedd37d22d9a4"
 
-"@types/jest@^22.1.2":
-  version "22.2.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.2.3.tgz#0157c0316dc3722c43a7b71de3fdf3acbccef10d"
+"@types/jest-diff@*":
+  version "20.0.1"
+  resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
+  integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
+
+"@types/jest@^24.0.19":
+  version "24.0.19"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.19.tgz#f7036058d2a5844fe922609187c0ad8be430aff5"
+  integrity sha512-YYiqfSjocv7lk5H/T+v5MjATYjaTMsUkbDnjGqSMoO88jWdtJXJV4ST/7DKZcoMHMBvB2SeSfyOzZfkxXHR5xg==
+  dependencies:
+    "@types/jest-diff" "*"
 
 "@types/keygrip@*":
   version "1.0.1"
